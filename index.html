@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">    
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="Ejercicio de recuperacion de JS para 2 DAW, AJAX con JS">
+    <meta name="title" content="Comuncacion asincrona en javascript con AJAX.">
+    <meta name="keywords" content="JAVASCRIPT, ADRISC, DAW, Capa cliente, AJAX">
+    <meta name="author" content="Adrián Sánchez Carchano">
+    <title>AJAX con JAVASCRIPT</title>
+</head>
+	<body>
+		<div id="wrapper">
+			<h1>Página del examen de Javascript - Ajax</h1>
+			<div id="news">
+				<h3 id="medio"></h3>				
+				<br />
+				<a id="link"><span id="title"></span></a>
+				<span id="pubdate"></span>
+			</div>	
+			
+			</div id="select_font">
+				<form>
+					<input type="radio" name="origin" value="osi" checked>Oficina de seguridad del internauta
+					<br>
+					<input type="radio" name="origin" value="linux">LinuxSecurity.com
+					<br>
+					<input type="radio" name="origin" value="secure">Securelist
+				</form>
+			</div>
+
+			<div id="news_more_views">
+				<h3>Noticias más vistas</h3>
+				<table>					
+					<thead>
+						<tr>
+							<th>Fuente</th>
+							<th>Recibidas</th>
+							<th>Clickadas</th>
+						</tr>
+					</thead>
+					<tbody>
+						<tr>
+							<td>Oficina de Seguridad del Internauta</td>
+							<td id="osi_recibed">0</td>
+							<td id="osi_clicked">0</td>		
+						</tr>
+						<tr>
+							<td>LinuxSecurity.com</td>
+							<td id="linux_recibed">0</td>
+							<td id="linux_clicked">0</td>			
+						</tr>
+						<tr>
+							<td>Securelist</td>
+							<td id="secur_recibed">0</td>	
+							<td id="secur_clicked">0</td>	
+						</tr>						
+					</tbody>
+				</table>
+			</div>
+			 	
+		</div> 
+		
+		<script src="scripts/scripts.js"></script>
+	</body>
+
+</html>
